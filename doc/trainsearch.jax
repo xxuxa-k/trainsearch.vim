@@ -1,0 +1,93 @@
+*trainsearch.txt*	日本語ヘルプ
+
+Author: 
+License : MIT license  {{{
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+    The above copyright notice and this permission notice shall be included
+    in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+}}}
+
+==============================================================================
+目次						*trainsearch-contents*
+
+概要				|trainsearch-introduction|
+使い方				|trainsearch-usage|
+インターフェイス		|trainsearch-interface|
+  変数				  |trainsearch-variables|
+  コマンド			  |trainsearch-commands|
+  関数				  |trainsearch-functions|
+TODO				|trainsearch-todo|
+更新履歴			|trainsearch-changelog|
+
+
+==============================================================================
+概要						*trainsearch-introduction*
+
+*trainsearch* は
+
+最新版:
+https://github.com/user/trainsearch.vim
+
+
+==============================================================================
+使い方						*trainsearch-usage*
+
+
+
+==============================================================================
+インターフェイス				*trainsearch-interface*
+
+------------------------------------------------------------------------------
+変数						*trainsearch-variables*
+
+g:trainsearch_tokyo_metro_api_base_url	*g:trainsearch_tokyo_metro_api_base_url*
+	既定値: = "https://api.tokyometroapp.jp/api/v2/datapoints"
+
+
+				*g:trainsearch_tokyo_metro_api_consumer_key*
+g:trainsearch_tokyo_metro_api_consumer_key
+
+
+------------------------------------------------------------------------------
+コマンド					*trainsearch-commands*
+
+:TrainsearchAllTrainInfo			*:TrainsearchAllTrainInfo*
+
+
+:TrainsearchSingleTrainInfo {}			*:TrainsearchSingleTrainInfo*
+
+
+------------------------------------------------------------------------------
+関数						*trainsearch-functions*
+
+trainsearch#all_train_info()			*trainsearch#all_train_info()*
+
+
+trainsearch#train_info({name})			*trainsearch#train_info()*
+
+
+==============================================================================
+TODO						*trainsearch-todo*
+
+
+
+==============================================================================
+更新履歴					*trainsearch-changelog*
+
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:noet:fen:
